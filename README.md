@@ -9,12 +9,12 @@ I'm covering how to create a fully functional Magento 2 module from scratch.. ev
 - 0.2.0 - [Models & Resource Models](https://www.ashsmith.io/magento2/module-from-scratch-module-part-2-models/)
 - 0.3.0 - [Migrations & Database Schema](http://www.ashsmith.io/magento2/module-from-scratch-part-3-database-tables/)
 - 0.4.2 - [Frontend: Controllers, Blocks & Templates](https://www.ashsmith.io/magento2/module-from-scratch-part-4-the-frontend/)
-- 0.5.0 - Backend: Controllers, Blocks, UI & Templates (Post coming soon!)
-- Unit Testing
+- 0.5.0 - [Backend: Controllers, Blocks, UI & Templates](https://www.ashsmith.io/magento2/module-from-scratch-part-5-adminhtml/)
+- 0.6.0 - [Unit Testing](https://www.ashsmith.io/magento2/module-from-scratch-part-6-unit-testing/)
 
 
 ## Install with Composer as you go
 
 Specify the version of the tutorial you need, and go go go.
 
-    composer require ashsmith/magento2-blog-module-example:0.5.0
+    composer require ashsmith/magento2-blog-module-example:0.5.2

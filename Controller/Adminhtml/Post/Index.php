@@ -6,6 +6,7 @@ use Magento\Framework\View\Result\PageFactory;
 
 class Index extends \Magento\Backend\App\Action
 {
+
     /**
      * @var PageFactory
      */
@@ -21,15 +22,6 @@ class Index extends \Magento\Backend\App\Action
     ) {
         parent::__construct($context);
         $this->resultPageFactory = $resultPageFactory;
-    }
-    /**
-     * Check the permission to run it
-     *
-     * @return bool
-     */
-    protected function _isAllowed()
-    {
-        return $this->_authorization->isAllowed('Ashsmith_Blog::post');
     }
 
     /**
@@ -48,4 +40,16 @@ class Index extends \Magento\Backend\App\Action
 
         return $resultPage;
     }
+
+    /**
+     * Is the user allowed to view the blog post grid.
+     *
+     * @return bool
+     */
+    protected function _isAllowed()
+    {
+        return $this->_authorization->isAllowed('Ashsmith_Blog::post');
+    }
+
+
 }
